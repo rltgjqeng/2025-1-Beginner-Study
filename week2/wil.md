@@ -23,4 +23,4 @@
 - **squash & merge**: 새로운 커및을 모두 squash하여 하나의 commit으로 만든 뒤 main으로 병합한다.
 - **rebase & merge**: 새로운 커밋들의 base를 재설정하고 모두 새로운 commit으로 변경한다.
 
-실습 과제제출: https://github.com/rltgjqeng/2025-1-Beginner-Study/pull/2
+실습 과제제출: <https://github.com/rltgjqeng/2025-1-Beginner-Study/pull/2>
