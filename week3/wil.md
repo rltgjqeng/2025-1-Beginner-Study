@@ -5,11 +5,11 @@
 - --oneline 옵션 사용하면 커밋을 한줄로 요약하여 보여줌
 '''git log --oneline'''
 
-###1.1. Commit id
+### 1.1. Commit id
 - 커밋 식별자
 - sha-1을 사용하는데 sha-1은 160bit hash 값을 생성하므로 40자리의 16진수(4bit) 값으로 나타난다.
 
-###1.2.HEAD
+### 1.2.HEAD
 - 현재 작업중인 브랜치의 최신 커밋을 나타낸다
 - 다음 커밋의 base가 되는 커밋이다.
 - 새로운 커밋이 생성될 때마다 변경된다.
@@ -28,7 +28,7 @@
 '''git commit --amend --no-edit'''
 - 주의사항 : 다른 사람이 base로 삼고 있는 커밋은 amend 하면 안됨.
 
-###3.2. git reset
+### 3.2. git reset
 - 커밋 제거에 사용함
 - **돌아갈 커밋의 id 입력**
 '''git reset '--option(soft,mixed,hard)' "commit_id"'''
@@ -39,7 +39,7 @@
 #### 3.2.3. reset --hard
 - 커밋을 취소하고 이전 커밋으로 돌아감, 변경 사항을 모두 삭제함(=컴퓨터에서 삭제됨)
 
-###3.3. git revert
+### 3.3. git revert
 - 커밋을 **제거하지 않고** 되돌림.
 - 되돌릴 커밋이 새로 생성됨
 - --edit 옵션(default)과 --no-edit옵션이 존재, 편집기 진입 여부 결정.
